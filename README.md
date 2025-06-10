@@ -8,11 +8,11 @@ https://github.com/birdnet-team/BirdNET-Analyzer/releases/tag/v2.0.0
 
 put the folder inside python/Lib/site-packages
 
-comment out the save commands:
-birdnet_analyzer/analyze/core.py
-Line 128
-\# save_analysis_params(os.path.join(cfg.OUTPUT_PATH, cfg.ANALYSIS_PARAMS_FILENAME))
-and add:
-return result_files[0]
+comment out the save commands:  
+birdnet_analyzer/analyze/core.py  
+Line 128  
+\# save_analysis_params(os.path.join(cfg.OUTPUT_PATH, cfg.ANALYSIS_PARAMS_FILENAME))  
+and add:  
+return result_files[0]  
 
 
