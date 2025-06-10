@@ -1,5 +1,5 @@
 # Alternative-BirdNet-Viewer
-analyse and display bird detections with birdnet analyzer
+show and compare bird detections of the BirdNet-Analyzer
 
 tested on win11 and python 3.11
 
