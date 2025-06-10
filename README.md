@@ -16,3 +16,7 @@ and add:
 return result_files[0]  
 
 
+besides the prerequisites for birdnet_analyzer it needs:  
+PyQt6, pyqtgraph, soundfile, sounddevice and librosa
+
+
