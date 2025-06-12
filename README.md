@@ -31,6 +31,15 @@ Detections with smaller time distances than the merge_distance are summarized.
 By clicking on detections in the file-window the corresponding spectrogram and detections windows will be opened.  
 Clicking on an entry of the detections will zoom-in the spectrogram.  
 
+### Navigation inside the spectrogram
+wheel or two fingers on trackpad: zoom x-axis  
+shift + wheel/fingers: zoom y-axis  
+cmd + click + drag: move on x-axis  
+
+space or button to play/stop audio  
+click to set transport  
+click + drag-right to set excerpt  
+
 
 
 
