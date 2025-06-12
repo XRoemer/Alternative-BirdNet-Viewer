@@ -3,7 +3,7 @@ simple and quick comparisons between bird detections of the BirdNet-Analyzer wit
 
 
 
-tested on win11 and python 3.11
+tested on win11, python 3.11 and birdnet_analyzer 2.0.0  
 
 
 
