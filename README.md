@@ -29,7 +29,7 @@ Detections with smaller time distances than the merge_distance are summarized.
 **cmd-lmb** to delete a detection  
 
 By clicking on detections in the file-window the corresponding spectrogram and detections windows will be opened.  
-Clicking on an entry of the detections will zoom-in the spectrogram.  
+Clicking on an entry of the birds in the detail-window will zoom-in the spectrogram.  
 
 ### Navigation inside the spectrogram
 wheel or two fingers on trackpad: zoom x-axis  
