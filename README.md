@@ -26,8 +26,12 @@ Open soundfiles (load audio)
 Mark the files to be analyzed in the **detect** column  
 Files will be analyzed with the current settings. The settings are equivalent to the ones of the BirdNet-Analyzer except the **merge_distance**.  
 Detections with smaller time distances than the merge_distance are summarized.  
+**cmd-lmb** to delete a detection  
 
-By clicking on detections in the file-window the corresponding spectrogramm and detections windows will be opened.
+By clicking on detections in the file-window the corresponding spectrogram and detections windows will be opened.  
+Clicking on an entry of the detections will zoom-in the spectrogram.  
+
+
 
 
 
