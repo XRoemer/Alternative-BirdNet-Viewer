@@ -246,13 +246,17 @@ class Files():
         return new_dic  
             
             
-    def save_current_detection(self,cur_cfg_string = None, current_file = None):
+    def save_current_detection(self, *args,**kwargs ): #cur_cfg_string = None, current_file = None):
         config = self.SV.settings.config
         detections = self.detections
-        
-        if cur_cfg_string == None:
+
+        if "cur_cfg_string" in kwargs:
+            cur_cfg_string = kwargs["cur_sfg_string"]
+        else:
             cur_cfg_string = self.cur_cfg_string
-        if current_file == None:
+        if "current_file" in kwargs:
+            current_file = kwargs["current_file"]
+        else:
             current_file = self.current_file
             
         filename = self.files[current_file]["filename"]
@@ -279,7 +283,8 @@ class Files():
             
         with open(f'detections/{filename}.json', 'w') as fout:
             json.dump(dic, fout, indent=4)
-
+        
+        
         
     def save_all_detections(self):
         detections = self.detections 

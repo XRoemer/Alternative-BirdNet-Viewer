@@ -228,6 +228,7 @@ class SpectrogramViewer(QWidget):
         # # Get the colormap
         # # cmaps: https://matplotlib.org/stable/gallery/color/colormap_reference.html
         colormap = cm.get_cmap("cividis")  # cm.get_cmap("CMRmap")
+        colormap = cm.get_cmap("inferno")
         colormap._init()
         # Convert matplotlib colormap from 0-1 to 0 -255 for Qt
         lut = (colormap._lut * 255).view(np.ndarray)  
