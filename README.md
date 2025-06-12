@@ -38,7 +38,7 @@ cmd + click + drag: move on x-axis
 
 space or button to play/stop audio  
 click to set transport  
-click + drag-right to set excerpt  
+click + drag-right to set section  
 
 
 
