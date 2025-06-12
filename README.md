@@ -8,17 +8,26 @@ tested on win11 and python 3.11
 
 
 ## Installation
-besides the prerequisites for birdnet_analyzer it needs:
+Besides the prerequisites for birdnet_analyzer it needs:
 PyQt6, pyqtgraph, soundfile, sounddevice and librosa  
 
-download the BirdNET-Analyzer from here:
+Download the BirdNET-Analyzer from here:
 https://github.com/birdnet-team/BirdNET-Analyzer/releases/tag/v2.0.0  
-unpack and put the folder inside python/Lib/site-packages
+Unpack and put the folder inside python/Lib/site-packages
 
-comment out the save command in Line 128 of the file **birdnet_analyzer/analyze/core.py**  
+Comment out the save command in Line 128 of the file **birdnet_analyzer/analyze/core.py**  
 **\# save_analysis_params(os.path.join(cfg.OUTPUT_PATH, cfg.ANALYSIS_PARAMS_FILENAME))**  
 and add:  
 **return result_files[0]**  
+
+## Usage
+Run **bnv_main.py** from console or editor  
+Open soundfiles (load audio)  
+Mark the files to be analyzed in the **detect** column  
+Files will be analyzed with the current settings. The settings are equivalent to the ones of the BirdNet-Analyzer except the **merge_distance**.  
+Detections with smaller time distances than the merge_distance are summarized.  
+
+By clicking on detections in the file-window the corresponding spectrogramm and detections windows will be opened.
 
 
 
