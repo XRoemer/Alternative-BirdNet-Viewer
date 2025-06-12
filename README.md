@@ -12,7 +12,7 @@ besides the prerequisites for birdnet_analyzer it needs:
 PyQt6, pyqtgraph, soundfile, sounddevice and librosa  
 
 download the BirdNET-Analyzer from here:
-https://github.com/birdnet-team/BirdNET-Analyzer/releases/tag/v2.0.0
+https://github.com/birdnet-team/BirdNET-Analyzer/releases/tag/v2.0.0  
 unpack and put the folder inside python/Lib/site-packages
 
 comment out the save command in Line 128 of the file **birdnet_analyzer/analyze/core.py**  
